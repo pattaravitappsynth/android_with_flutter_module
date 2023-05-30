@@ -1,0 +1,5 @@
+setBinding(new Binding([gradle: this, mainModule: "app"]))                                // new
+evaluate(new File(                                                     // new
+        settingsDir,                                              // new
+        'example_flutter/.android/include_flutter.groovy'                         // new
+))
